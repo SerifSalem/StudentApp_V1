@@ -29,8 +29,9 @@ fun main() {
         }
 
         // 4) Build the data object and show a friendly summary
-        val s = Student2(id = id, name = name, course = course, mark = mark)
+        val s = Student(id = id, name = name, course = course, mark = mark)
         // Student.toString() is overridden to show name, course, and mark only
         println("Created -> $s\n")
     }
 }
+//
